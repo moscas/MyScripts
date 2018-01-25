@@ -9,7 +9,7 @@ BEGIN
   SELECT customer_id INTO v_customer_id
   FROM rental
   WHERE return_date IS NULL
-  AND inventory_id = p_inventory_id;
+  AND inventory_id = p_inventory_id AND 1=1;
 
   RETURN v_customer_id;
 END
