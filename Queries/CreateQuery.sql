@@ -1,4 +1,4 @@
-CREATE TABLE table_from_file
+create table table_from_file
 (
-field VARCHAR (45)
-)
+  field varchar(45)
+);
