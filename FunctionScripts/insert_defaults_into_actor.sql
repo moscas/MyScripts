@@ -10,7 +10,7 @@ BEGIN
   INTO v_customer_id
   FROM rental
   WHERE return_date IS NULL
-        AND inventory_id = p_inventory_id and 1=1;
+        AND inventory_id = p_inventory_id;
 
   RETURN v_customer_id;
 END
