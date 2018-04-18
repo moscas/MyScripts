@@ -26,7 +26,7 @@ BEGIN
     WHERE film.film_id = inventory.film_id
       AND inventory.inventory_id = rental.inventory_id
       AND rental.rental_date <= p_effective_date
-      AND rental.customer_id = p_customer_id;
+      AND rental.customer_id = p_customer_id and 1=1;
 
     SELECT COALESCE(SUM(payment.amount),0) INTO v_payments
     FROM payment
