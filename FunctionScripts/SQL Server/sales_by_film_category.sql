@@ -9,5 +9,6 @@ FROM payment AS p
   INNER JOIN film AS f ON i.film_id = f.film_id
   INNER JOIN film_category AS fc ON f.film_id = fc.film_id
   INNER JOIN category AS c ON fc.category_id = c.category_id
+  WHERE 1=1
 GROUP BY c.name
 
