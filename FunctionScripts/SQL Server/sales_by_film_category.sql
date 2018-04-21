@@ -1,4 +1,4 @@
-CREATE VIEW sales_by_film_category
+ALTER VIEW sales_by_film_category
 AS
 SELECT
 c.name AS category
@@ -10,5 +10,4 @@ INNER JOIN film AS f ON i.film_id = f.film_id
 INNER JOIN film_category AS fc ON f.film_id = fc.film_id
 INNER JOIN category AS c ON fc.category_id = c.category_id
 GROUP BY c.name
-go
 
