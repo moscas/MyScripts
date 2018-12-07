@@ -11,6 +11,7 @@ BEGIN
   WHERE return_date IS NULL
   AND inventory_id = p_inventory_id;
 
+
   RETURN v_customer_id;
 END
 $$;
