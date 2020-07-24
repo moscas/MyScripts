@@ -1,0 +1,1 @@
+select * from max_t

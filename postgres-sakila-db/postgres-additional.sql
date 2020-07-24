@@ -4,7 +4,7 @@
 create table view_with_rules_t1
 (
   ctr         smallint    not null /*primary key*/,
-  ctr_name    varchar(26) not null /*unique*/,
+  ctr_name    varchar(30) not null /*unique*/,
   ctr_capital int
 );
 
