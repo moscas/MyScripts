@@ -1,2 +1,2 @@
 SELECT *
-FROM guest.public.actor;
+FROM public.actor;
