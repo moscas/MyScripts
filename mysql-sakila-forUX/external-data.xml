@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+  <table-set>
+    <table path="guest.public.teams">
+      <table path="guest.public.players" from="player" to="id"/>
+    </table>
+    <table path="guest.public.table_name">
+      <table path="guest.public.table_name_2" from="column_1" to="column_a"/>
+    </table>
+  </table-set>
+</data>
