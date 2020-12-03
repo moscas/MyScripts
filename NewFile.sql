@@ -1,2 +1,2 @@
 SELECT *
-FROM public.actor;
+FROM public.actasor;
